@@ -25,9 +25,11 @@ end
 
 summon_captain_planet(planeteer)
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? { |call| call.length > 4 }
 end
+
+long_planeteer_calls(planeteer_calls)
 
 potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
 
