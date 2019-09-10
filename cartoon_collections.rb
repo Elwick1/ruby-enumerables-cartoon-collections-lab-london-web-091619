@@ -2,10 +2,10 @@ def roll_call_dwarves(dwarves)
   
 end
 
-planeteer_calls = %w[earth wind fire water heart]
+planeteer = %w[earth wind fire water heart]
 
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map { |call| call.capitalize + '!' }
+def summon_captain_planet(planeteer)
+  planeteer.map { |call| call.capitalize + '!' }
 end
 
 summon_captain_planet(planeteer_calls)
