@@ -16,9 +16,6 @@ end
 
 roll_call_dwarves(dwarves)
 
-#def roll_call_dwarves(dwarves)
-  
-#end
 
 planeteer = %w[earth wind fire water heart]
 
