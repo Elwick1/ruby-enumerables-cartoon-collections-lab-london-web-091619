@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  roll_call_dwarves.each do
+  roll_call_dwarves.each do |roll_call_dwarves|
   puts roll_call_dwarves
 end
 
